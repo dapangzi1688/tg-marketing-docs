@@ -13,8 +13,9 @@
 | `client_token` | 授权码 |
 | `client_code` | 端码 |
 | `api_id` / `api_hash` | Telegram API（群组小号群发等使用） |
-| `channel_ID` | 小号群发默认频道用户名 |
+| `channel_ID` | 小号群发默认频道用户名（`广告.txt` 为空时的回退来源） |
 | `delay` | 默认间隔（部分功能） |
+| `header` | 小号群发发送方式：`转发` / `直发` |
 
 > 具体字段以软件版本为准，缺失时启动过程会提示输入。
 
