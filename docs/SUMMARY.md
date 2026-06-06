@@ -32,6 +32,5 @@
 * [Session 协议与转换](shared/session-format.md)
 * [双向限制与解除](shared/spam-restriction.md)
 * [降低封号风险建议](shared/safety-tips.md)
-* [GitBook 同步说明](shared/gitbook-sync.md)
 
 * [更新记录](changelog.md)
