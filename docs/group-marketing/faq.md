@@ -3,7 +3,7 @@
 ## 为什么没有加载到账号？
 
 * session 不在 `账号/` 或已移入 `异常账号/`
-* Pyrogram session 转换失败
+* 其他框架协议 session 转换失败
 * 同一 session 在其他地方同时登录导致失效
 
 ## 群发后很多号进双向限制账号？
@@ -13,7 +13,7 @@
 
 ## no such column: version
 
-Pyrogram session 被 Telethon 直接读取导致。软件会自动转换；失败请用手动 **16.py转换tl** 或移出损坏文件。
+其他框架协议 session 被本框架协议直接读取导致。软件会自动转换；失败请用手动 **16.py转换tl** 或移出损坏文件。
 
 ## 检测账号时打印两遍「正在加载账号」？
 
@@ -25,4 +25,4 @@ Pyrogram session 被 Telethon 直接读取导致。软件会自动转换；失�
 
 ## Constructor ID / TL 解析错误？
 
-升级 Telethon 到较新版本（Layer 220+），或减少拉群列表时的异常群。
+升级本框架协议到较新版本（Layer 220+），或减少拉群列表时的异常群。
