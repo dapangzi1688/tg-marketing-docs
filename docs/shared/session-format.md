@@ -10,23 +10,23 @@ no such column: version
 
 ## 原因
 
-Pyrogram 的 session 数据库列名与 Telethon 不兼容（Pyrogram 用 `number`，Telethon 查 `version`）。
+其他框架协议的 session 数据库列名与本框架协议不兼容（其他框架协议用 `number`，本框架协议查 `version`）。
 
 ## 自动处理（推荐）
 
 `load_clients()` 连接前会：
 
-1. 识别 session 格式（pyrogram / telethon / invalid）
-2. Pyrogram → 自动转为 Telethon 并验证
+1. 识别 session 格式（其他框架协议 / 本框架协议 / invalid）
+2. 其他框架协议 → 自动转为本框架协议并验证
 3. 无效文件 → 移入 `异常账号/`
 
 ## 手动转换
 
 **群组营销** 综合菜单 → **16.py转换tl**（适合批量处理外部目录 session，先删后读）。
 
-## 旧版 Telethon session
+## 旧版本框架协议 session
 
-缺少 `version` 表的旧 Telethon 文件会自动补表并验证，无需手动操作。
+缺少 `version` 表的旧本框架协议文件会自动补表并验证，无需手动操作。
 
 ## 注意
 

@@ -50,7 +50,7 @@
 
 * **13**：交互式注册新 session  
 * **14**：Telegram Desktop 的 tdata 转 session  
-* **16**：手动将 Pyrogram session 转为 Telethon（加载时也会自动转换）
+* **16**：手动将其他框架协议 session 转为本框架协议（加载时也会自动转换）
 
 ## 15 群组数量
 
