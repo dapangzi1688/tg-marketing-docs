@@ -28,8 +28,8 @@
 | 13 | 生成账号 | 新建 session |
 | 14 | tdata转换 | Desktop tdata → session |
 | 15 | 群组数量 | 查看自己创建的频道/群数量 |
-| 16 | py转换tl | 其他框架协议 session 手动转本框架协议 |
-| 17 | 转发消息 | 综合内转发模式 |
+| 16 | py转换tl | 外部目录其他框架协议 session 批量转本框架协议到 `账号/` |
+| 17 | 转发消息 | 将频道广告转发给 Bot（非发群） |
 
 详见 [综合功能一览](features-overview.md)。
 
