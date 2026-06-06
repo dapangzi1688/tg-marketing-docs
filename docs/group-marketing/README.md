@@ -28,7 +28,7 @@
 
 | 文件 | 用途 |
 |------|------|
-| `botconfig.txt` | 机器人群发词库（每行一词/短语） |
+| `botconfig.txt` | 机器人用户名（每行一个机器人用户名或者bot-token） |
 | `广告.txt` | 小号群发：频道消息链接；机器人群发：日志关联 |
 | `config/Configuration.ini` | 授权与 channel_ID 等 |
 
