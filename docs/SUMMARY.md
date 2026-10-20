@@ -11,6 +11,7 @@
 * [主菜单说明](group-marketing/main-menu.md)
 * [机器人群发](group-marketing/mass-send-robot.md)
 * [小号群发](group-marketing/mass-send-account.md)
+* [引用群发](group-marketing/mass-send-quote.md)
 * [综合功能 01-17](group-marketing/features-overview.md)
 * [配置文件](group-marketing/config-files.md)
 * [日志说明](group-marketing/logs.md)
